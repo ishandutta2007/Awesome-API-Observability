@@ -288,7 +288,7 @@ A modern open-source API observability stack can therefore look like:
 
 These projects provide broader observability capabilities and can form the foundation of a self-hosted API observability platform.
 
-| Project | Stars | Description | Primary Strength |
+| Project | Github_Stars | Description | Primary Strength |
 | --- | :---: | --- | --- |
 | [Netdata](https://github.com/netdata/netdata) | [![Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers) | Real-time infrastructure & application metrics engine with instant per-second granularity | Ultra-low latency real-time API and system monitoring |
 | [Grafana](https://github.com/grafana/grafana) | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Industry-standard visualization and unified observability platform | Comprehensive multi-source dashboards and unified alerting |
