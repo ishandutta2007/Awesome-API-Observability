@@ -1,8 +1,24 @@
-# Awesome-API-Observability
+# 👁️ Awesome API Observability ⚡
 
-# 👁️ Top API Observability Platforms & Open-Source API Observability
+<div align="center">
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-API-Observability/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Observability?style=flat-square&color=gold" alt="Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-API-Observability/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Observability?style=flat-square&color=blue" alt="Forks" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-API-Observability/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-API-Observability?style=flat-square&color=green" alt="Issues" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-API-Observability/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+</div>
+
+<p align="center">
+  <a href="assets/api-observability-banner.svg">
+    <img src="assets/api-observability-banner.svg" alt="Awesome API Observability Banner" width="100%" />
+  </a>
+</p>
+
+---
 
 > A curated list of **API observability, API monitoring, API analytics, runtime intelligence, distributed tracing, API gateways and open-source software** for understanding the health, performance, usage and behavior of modern APIs.
 
@@ -114,80 +130,46 @@ This repository focuses primarily on **open-source and self-hostable API observa
 
 
 
+
 ---
-
-
 
 # ☁️ SaaS/Hosted Platforms
 
-
-
 Commercial API observability platforms combine telemetry collection, analytics, dashboards, alerting, distributed tracing, API discovery and sometimes API governance/security.
 
+> 📊 **Industry Market Sizing & Structure:** The global API management and observability market size is estimated at approximately **$5.8 Billion to $6.2 Billion** (growing at >28% CAGR toward $15B+). The sector is **moderately fragmented**: mega-cap tech conglomerates (Cisco, Datadog, Dynatrace, Splunk) capture high-end enterprise infrastructure, while specialized runtime intelligence and API gateway platforms (Moesif, Treblle, Kong) aggressively compete with deep payload inspection, contract awareness, and monetization tooling, preventing a single winner-take-all monopoly.
 
-
-| Platform                                                                         | Company        | Primary Focus                 | Key Capabilities                                                                   |
-
-| -------------------------------------------------------------------------------- | -------------- | ----------------------------- | ---------------------------------------------------------------------------------- |
-
-| [Moesif](https://www.moesif.com/)                                                | Moesif / WSO2  | API analytics & observability | API logs, metrics, payload analytics, customer analytics, monitoring, monetization |
-
-| [Treblle](https://treblle.com/)                                                  | Treblle        | API intelligence              | API observability, discovery, runtime intelligence, governance, security           |
-
-| [Akita](https://www.akitasoftware.com/)                                          | Akita Software | API observability             | API behavior discovery, traffic analysis, service understanding                    |
-
-| [Dash0](https://www.dash0.com/)                                                  | Dash0          | Observability                 | Metrics, logs, traces, OpenTelemetry and incident investigation                    |
-
-| [Middleware](https://middleware.io/)                                             | Middleware     | Full-stack observability      | APM, logs, metrics, traces, infrastructure and API monitoring                      |
-
-| [Coralogix](https://coralogix.com/)                                              | Coralogix      | Observability                 | Logs, metrics, traces, APM and API monitoring                                      |
-
-| [Datadog API Monitoring](https://www.datadoghq.com/product/api-monitoring/)      | Datadog        | API monitoring                | API tests, tracing, APM, synthetic monitoring, analytics                           |
-
-| [New Relic](https://newrelic.com/)                                               | New Relic      | APM / observability           | API monitoring, distributed tracing, logs, metrics and synthetics                  |
-
-| [SmartBear API Hub](https://smartbear.com/api-hub/)                              | SmartBear      | API lifecycle                 | API monitoring, API quality, testing, governance and analytics                     |
-
-| [Kong Konnect](https://konghq.com/products/kong-konnect)                         | Kong           | API platform                  | API gateway, analytics, tracing, traffic metrics and observability                 |
-
-| [Observe](https://observeinc.com/)                                               | Observe        | Data observability            | Logs, metrics, traces and operational analytics                                    |
-
-| [Elastic](https://www.elastic.co/)                                               | Elastic        | Observability                 | APM, logs, metrics, tracing and API analytics                                      |
-
-| [Gravitee](https://www.gravitee.io/)                                             | Gravitee       | API management                | API analytics, gateway analytics, traffic monitoring and governance                |
-
-| [Grafana Cloud](https://grafana.com/products/cloud/)                             | Grafana Labs   | Observability                 | Metrics, logs, traces, profiles and dashboards                                     |
-
-| [Honeycomb](https://www.honeycomb.io/)                                           | Honeycomb      | Observability                 | High-cardinality events, tracing and debugging                                     |
-
-| [Sentry](https://sentry.io/)                                                     | Sentry         | Application monitoring        | Errors, performance, tracing and API failures                                      |
-
-| [Splunk Observability](https://www.splunk.com/en_us/products/observability.html) | Splunk         | Enterprise observability      | Metrics, traces, logs and infrastructure monitoring                                |
-
-| [Dynatrace](https://www.dynatrace.com/)                                          | Dynatrace      | Enterprise observability      | APM, distributed tracing, infrastructure and API monitoring                        |
-
-| [AppDynamics](https://www.appdynamics.com/)                                      | Cisco          | APM                           | Application performance and API monitoring                                         |
-
-| [SolarWinds](https://www.solarwinds.com/)                                        | SolarWinds     | Infrastructure/APM            | Application and API monitoring                                                     |
-
-| [Sematext](https://sematext.com/)                                                | Sematext       | Observability                 | Logs, metrics, tracing and API monitoring                                          |
-
-
+| Platform | Company | Market Valuation / Revenue | Primary Focus | Key Capabilities | Pricing | Free Tier / Trial Limits |
+| --- | --- | --- | --- | --- | --- | --- |
+| [AppDynamics](https://www.appdynamics.com/) | Cisco | $200B+ Market Cap (~$54B Annual Rev; acquired for $3.7B) | APM & Application Monitoring | Application performance, end-to-end transaction tracing, and API monitoring | Infrastructure Monitoring starts at $6/CPU core/mo; Premium APM starts at $33/CPU core/mo | 30-day free trial (full APM & infrastructure monitoring features) |
+| [Datadog API Monitoring](https://www.datadoghq.com/product/api-monitoring/) | Datadog | ~$38B Market Cap (~$2.6B Annual Rev) | Full-Stack Cloud & API Monitoring | Synthetic API tests, distributed tracing, APM, network monitoring, analytics | Starts at $5 per 10,000 API test runs/mo ($7.20/10k on-demand); APM starts at $31/host/mo | 14-day free trial (full platform access including synthetics) |
+| [Splunk Observability](https://www.splunk.com/en_us/products/observability.html) | Splunk / Cisco | $28B Acquisition Valuation (~$4.2B Annual Rev) | Enterprise Observability & Security | Metrics, OpenTelemetry traces, log analysis, and infrastructure monitoring | Infrastructure starts at $15/host/mo; APM starts at $55/host/mo (billed annually) | 14-day free trial (access to APM, Infrastructure Monitoring, and sample data) |
+| [Dynatrace](https://www.dynatrace.com/) | Dynatrace | ~$15B Market Cap (~$1.6B Annual Rev) | Enterprise AI & Observability | Davis AI engine, full-stack APM, distributed tracing, and API monitoring | Foundation at $7/host/mo ($0.01/hr); Full-Stack at $58/host/mo per 8 GiB host | 15-day free trial (up to 1,000 host unit hours, no credit card required) |
+| [Elastic](https://www.elastic.co/) | Elastic | ~$8.5B Market Cap (~$1.4B Annual Rev) | Search & Unified Observability | Distributed tracing, APM, Elasticsearch log analytics, and API metrics | Starts at $99/mo (Elastic Cloud Standard tier) | 14-day free trial (up to 8 GB RAM across 2 AZs, 1 hosted deployment) |
+| [New Relic](https://newrelic.com/) | New Relic | $6.5B Private Acquisition (Francisco Partners / TPG; ~$900M+ Rev) | APM & Observability | API monitoring, distributed tracing, Telemetry Data Platform, and synthetics | Starts at $0.40/GB ingested beyond free allowance ($0.60/GB for Data Plus) | Free forever up to 100 GB/mo data ingest and 1 full platform user |
+| [Grafana Cloud](https://grafana.com/products/cloud/) | Grafana Labs | $6.0B Valuation (~$200M+ ARR) | Open & Composable Observability | Managed Prometheus metrics, Loki logs, Tempo traces, and dashboards | Starts at $19/mo platform fee (Pro plan) + usage | Free forever up to 10,000 metrics series, 50 GB logs, 50 GB traces, 3 users |
+| [Akita](https://www.akitasoftware.com/) | Postman (acquired Akita) | $5.6B Valuation (Postman Series D valuation; acquired Akita Software) | API Observability & Testing | Automated API behavior discovery, traffic analysis, and contract validation | Starts at $9/user/mo (Postman Solo, billed annually) or $19/user/mo (Team) | Free forever up to 1,000 monitoring calls/mo and 50 AI credits |
+| [Sentry](https://sentry.io/) | Sentry | $3.0B+ Valuation (Series E; ~$100M+ ARR) | Application Performance & Error Monitoring | Error tracking, distributed tracing, API endpoint performance, and session replay | Starts at $26/mo (Team plan, billed annually) | Free forever up to 50,000 errors/mo & 5,000,000 spans/mo (1 user) |
+| [Kong Konnect](https://konghq.com/products/kong-konnect) | Kong | $2.0B Valuation (Series E) | Cloud API Platform & Gateway | Managed API gateway, traffic analytics, distributed tracing, and service mesh | Starts at $250/mo base for Plus plan ($200 per extra 1M requests) | 30-day free trial with full enterprise functionality (or free self-hosted OSS gateway) |
+| [SolarWinds](https://www.solarwinds.com/) | SolarWinds | ~$1.8B Market Cap (~$780M Annual Rev) | Hybrid Cloud & Infrastructure APM | Application performance, database monitoring, and API observability | Application Observability starts at $27/mo (SaaS, billed annually) or $7.42/node/mo (self-hosted) | 30-day free trial (fully functional SaaS & self-hosted evaluation) |
+| [Honeycomb](https://www.honeycomb.io/) | Honeycomb | ~$600M Valuation (Series D) | High-Cardinality Observability | BubbleUp anomaly detection, distributed tracing, and high-cardinality API event querying | Starts at $150/mo (Pro plan, includes 50M events) | Free forever up to 20 million events/mo & 100M time series data points |
+| [Observe](https://observeinc.com/) | Observe | ~$400M+ Valuation (Series B led by Sutter Hill) | Snowflake-Native Observability | High-volume log, metric, and trace graph analytics built on modern cloud architecture | Usage-based uncompressed ingestion + compute credits (custom quote, contract-based) | 14-day free trial (capped compute credits, up to 20 monitors, no credit card required) |
+| [Coralogix](https://coralogix.com/) | Coralogix | ~$400M Valuation (Series E) | In-Stream Telemetry & Analytics | Streama in-memory processing engine, APM, log analytics, and API metrics | Starts at $1.50 per compute/pipeline unit | 14-day free trial with 8 units quota (no credit card required) |
+| [SmartBear API Hub](https://smartbear.com/api-hub/) | SmartBear | ~$300M+ Estimated Revenue (backed by Vista Equity) | API Lifecycle & Quality | SwaggerHub design, ReadyAPI functional testing, monitoring, and contract governance | Starts at $19/user/mo (Individual) or $29/user/mo (Team) | 14-day free trial for API tools (SwaggerHub / ReadyAPI) |
+| [Gravitee](https://www.gravitee.io/) | Gravitee | ~$200M Valuation (Series B) | API Lifecycle & Event-Driven Gateway | Synchronous & asynchronous API management, security, and traffic observability | Enterprise tier starts at ~$1,500/mo (custom quote) | 14-day free trial of Gravitee Cloud (or free self-hosted open-source Community APIM) |
+| [Middleware](https://middleware.io/) | Middleware | ~$100M+ Valuation (Series A) | Full-Stack Cloud & AI Observability | Agent-based unified APM, logs, traces, metrics, and API health checks | Starts at $0.30/GB ingested for metrics, logs, traces | Free forever up to 100 GB ingestion/mo (unlimited users) |
+| [Moesif](https://www.moesif.com/) | Moesif / WSO2 | ~$50M Valuation / Backed by Merus Capital & WSO2 | API Analytics & Monetization | Payload inspection, customer segmentation, funnel analytics, and usage-based billing | Starts at $100/mo (Grow plan) | Free forever up to 30,000 events/mo (also 14-day free trial for paid tiers) |
+| [Dash0](https://www.dash0.com/) | Dash0 | ~$40M Valuation (Seed / Series A from Accel) | Native OpenTelemetry Observability | Pure OpenTelemetry metrics, traces, logs, and AI-assisted root cause analysis | Starts at $0.20/1M metric points & $0.60/1M logs/spans | 14-day free trial (unlimited telemetry signals, no credit card required) |
+| [Treblle](https://treblle.com/) | Treblle | ~$35M Valuation (Series A) | Lightweight API Intelligence | Real-time payload monitoring, auto-generated documentation, and security audits | Starts at $233/mo (Core plan, billed annually) | Free forever up to 250,000 requests/mo (no credit card required) |
+| [Sematext](https://sematext.com/) | Sematext | ~$10M Bootstrapped / Profitable ARR | DevOps & API Monitoring | Scalable logs, container metrics, synthetic API monitors, and real user tracking | Infrastructure Monitoring starts at $2.52/mo; Logs start at $4.50/mo | Free forever plan with up to 500 MB logs/day (also 14-day free trial for paid plans) |
 
 Moesif focuses particularly strongly on **API-specific analytics**, including high-cardinality API logs, payload inspection, customer segmentation, latency analysis and API usage analytics.
 
-
-
 Treblle positions its platform around a broader **API intelligence/runtime intelligence** layer spanning API discovery, runtime behavior, security, governance and consumer usage.
-
-
 
 ---
 
-
-
 # 🌍 Open-Source
-
 
 
 Unlike many commercial API observability products, open-source API observability is usually **composable**.
@@ -304,41 +286,22 @@ A modern open-source API observability stack can therefore look like:
 
 # 🔭 Open-Source API Observability Platforms
 
-
-
 These projects provide broader observability capabilities and can form the foundation of a self-hosted API observability platform.
 
-
-
-| Project                                                                    | Description                            | Primary Strength                         |
-
-| -------------------------------------------------------------------------- | -------------------------------------- | ---------------------------------------- |
-
-| [SigNoz](https://github.com/SigNoz/signoz)                                 | Open-source observability platform     | Unified metrics, logs and traces         |
-
-| [OpenObserve](https://github.com/openobserve/openobserve)                  | Observability platform                 | Logs, metrics, traces and analytics      |
-
-| [Apache SkyWalking](https://github.com/apache/skywalking)                  | APM / observability platform           | Distributed tracing and service topology |
-
-| [Grafana](https://github.com/grafana/grafana)                              | Visualization / observability platform | Dashboards and unified visualization     |
-
-| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector) | Telemetry framework                    | Vendor-neutral instrumentation           |
-
-| [OpenSearch](https://github.com/opensearch-project/OpenSearch)             | Search / analytics                     | Logs, traces and observability           |
-
-| [Uptrace](https://github.com/uptrace/uptrace)                              | Open-source APM                        | OpenTelemetry-based tracing and metrics  |
-
-| [HyperDX](https://github.com/hyperdxio/hyperdx)                            | Observability platform                 | Logs, traces and sessions                |
-
-| [Coroot](https://github.com/coroot/coroot)                                 | Monitoring / troubleshooting           | eBPF + Kubernetes observability          |
-
-| [GlitchTip](https://gitlab.com/glitchtip/glitchtip)                        | Error monitoring                       | Sentry-compatible error monitoring       |
-
-| [Netdata](https://github.com/netdata/netdata)                              | Real-time monitoring                   | Infrastructure and application metrics   |
-
-| [Zabbix](https://github.com/zabbix/zabbix)                                 | Monitoring platform                    | Infrastructure and service monitoring    |
-
-
+| Project | Stars | Description | Primary Strength |
+| --- | :---: | --- | --- |
+| [Netdata](https://github.com/netdata/netdata) | [![Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers) | Real-time infrastructure & application metrics engine with instant per-second granularity | Ultra-low latency real-time API and system monitoring |
+| [Grafana](https://github.com/grafana/grafana) | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Industry-standard visualization and unified observability platform | Comprehensive multi-source dashboards and unified alerting |
+| [SigNoz](https://github.com/SigNoz/signoz) | [![Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) | Full-stack open-source APM & observability platform powered by OpenTelemetry and ClickHouse | Unified native OTel metrics, logs, and distributed traces |
+| [Apache SkyWalking](https://github.com/apache/skywalking) | [![Stars](https://img.shields.io/github/stars/apache/skywalking?style=social&color=white)](https://github.com/apache/skywalking/stargazers) | Application performance monitor (APM) and distributed tracing system designed for microservices | Automatic service topology mapping, distributed tracing, and eBPF profiling |
+| [OpenObserve](https://github.com/openobserve/openobserve) | [![Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers) | High-performance cloud-native observability platform written in Rust for logs, metrics, and traces | Low-cost, high-compression SQL-based observability with built-in UI |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Distributed search and analytics suite offering log analytics and trace analytics | High-scale log search, distributed tracing visualization, and anomaly detection |
+| [HyperDX](https://github.com/hyperdxio/hyperdx) | [![Stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers) | Developer-first unified observability platform connecting logs, traces, and session replays | Correlating browser user sessions directly with backend API traces |
+| [Coroot](https://coroot.com/) ([GitHub](https://github.com/coroot/coroot)) | [![Stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers) | Zero-instrumentation Kubernetes and API observability engine powered by eBPF | Automated root cause analysis and network service-to-service tracing |
+| [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) | [![Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers) | Vendor-neutral proxy and telemetry pipeline for receiving, processing, and exporting data | Industry-standard OTLP collection, sampling, and multi-backend routing |
+| [Zabbix](https://github.com/zabbix/zabbix) | [![Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers) | Enterprise-class distributed open-source monitoring solution for networks and APIs | High-scale network health checks, distributed HTTP monitoring, and alerting |
+| [Uptrace](https://github.com/uptrace/uptrace) | [![Stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers) | Open-source APM and distributed tracing tool built for OpenTelemetry and ClickHouse | Lightweight distributed tracing and pinpoint error pinpointing |
+| [GlitchTip](https://gitlab.com/glitchtip/glitchtip) | [![Stars](https://img.shields.io/badge/stars-2.2k-white?style=social)](https://gitlab.com/glitchtip/glitchtip) | Simple, open-source Sentry-compatible error tracking and performance monitor | Lightweight self-hosted exception tracking and API failure monitoring |
 
 SigNoz is particularly relevant for API observability because it combines metrics, logs and distributed tracing around OpenTelemetry rather than requiring three separate proprietary systems. OpenTelemetry's ecosystem also lists SigNoz, Jaeger, OpenSearch, Fluent Bit and other open-source observability projects.
 
@@ -3436,6 +3399,13 @@ Always verify the current license before describing a project as open source.
 
 ---
 
+
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Observability&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Observability&type=date&legend=top-left)
+
+---
 
 
 # ⚠️ Disclaimer
